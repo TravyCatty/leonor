@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  background: url(../img/Bg.png) 100% 22% repeat-y;
+}
+
+main {
+  padding: 70px 8%;
+  height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 6.5em;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #977322;
+}
+
+nav .search-icon {
+  cursor: pointer;
+}
+
+section {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section img {
+  margin-top: -5%;
+  pointer-events: none;
+}
+
+section .info {
+  width: 40rem;
+}
+
+section .info h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+section .info h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 10%;
+}
+
+section .info button {
+  cursor: pointer;
+  margin-top: 10%;
+  width: 315px;
+  height: 97px;
+  background: #977322;
+  border: none;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 26px;
+}
+
+section .info button:hover {
+  background: #000;
+}
+/*# sourceMappingURL=style.css.map */

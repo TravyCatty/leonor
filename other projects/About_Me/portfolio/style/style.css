@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background: #202020;
+  padding-top: 15%;
+}
+
+h1 {
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 48px;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+h1:hover {
+  color: #21C0ED;
+}
+/*# sourceMappingURL=style.css.map */
